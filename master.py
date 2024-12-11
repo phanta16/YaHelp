@@ -130,7 +130,7 @@ class Authorization(QWidget):
             "font-size: 20px;")
 
     def randomimage(self):
-        for i in os.listdir(r"C:\Users\alex2\PycharmProjects\pythonProject3"):
+        for i in os.listdir(os.getcwd()):
             if 'sc' in i and self.rand_conf in i:
                 return i
 
