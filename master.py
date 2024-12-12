@@ -682,6 +682,7 @@ if __name__ == '__main__':
     logs = Logs()
     settings = Settings()
     a = Authorization()
+    a.show()
     c = CookieGraber()
     a.show()
     chat = Chat()
