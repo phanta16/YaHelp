@@ -598,7 +598,7 @@ class Chat(QWidget):
         self.message_pol.setReadOnly(True)
 
         self.mesenev = QLabel(self)
-        self.mesenev.setGeometry(590, -180, 1000, 1000)
+        self.mesenev.setGeometry(570, -180, 1000, 1000)
         image_path = 'Mesenev_chat.jpg'
         pixmap = QPixmap(image_path)
         self.mesenev.setPixmap(pixmap)
