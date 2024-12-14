@@ -684,6 +684,5 @@ if __name__ == '__main__':
     a = Authorization()
     a.show()
     c = CookieGraber()
-    a.show()
     chat = Chat()
     sys.exit(app.exec())
